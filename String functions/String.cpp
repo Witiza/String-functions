@@ -1,4 +1,5 @@
 /* Aqui fem les diferents funcions*/
+#include<stdio.h>
 
 int my_strlen(char* string)
 {
@@ -71,36 +72,4 @@ char* capitalize(char* string)
 		charupper(string[counter]);
 	}
 	return string;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
