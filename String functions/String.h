@@ -1,0 +1,1 @@
+/* Aquest fitxer serveix per fer les "promeses" per les diferents funcions*/
