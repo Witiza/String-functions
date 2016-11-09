@@ -80,18 +80,30 @@ char* capitalize(char* string)
 
 char* my_strflip(char* string)
 {
-if (my_strlen(string) % 2 == 1)
+	if (my_strlen(string) % 2 == 1)
 	{
-	for(int i = 0; i < (my_strlen(string) - 1)/2; i++)
+		for (int i = 0; i < (my_strlen(string) - 1) / 2; i++)
 		{
-		char_flipper(string[i]), string[my_strlen-1-i])
+			char_flipper(string[i]*), string[my_strlen(string) - 1 - i]*);
 		}
-if (my_strlen(string) % 2 == 0)
-	{
+	}
+else if (my_strlen(string) % 2 == 0)
+{
 	for (int i = 0; i < my_strlen(string) / 2; i++)
-		{
-			char_flipper(string[i]), string[my_strlen - 1 - i])
-		}
+	{
+		char_flipper(string[i]*), string[my_strlen(string) - 1 - i]*);
+	}
+}
+	return string;
+}
+
+void char_flipper(char *char1, char *char2)
+{
+	char temp_char = *char1;
+	*char1 = *char2;
+	*char2 = temp_char;
+
+}
 
 
 

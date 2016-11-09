@@ -5,9 +5,9 @@
 
 int main()
 {
-	char test[] = "Test String and bla bla bal";
+	char test[] = "Hello";
 	
-	printf("%s \n", capitalize(test));
+	printf("%s \n", my_strflip(test));
 	//printf("%d \n", my_strlen(test));
 	//printf("%d \n", upper_count(test));
 	//printf("%d \n", word_count(test));

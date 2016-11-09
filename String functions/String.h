@@ -7,4 +7,5 @@ int isupper(char);
 int upper_count(char*);
 char charupper(char);
 char* capitalize(char*);
+char* my_strflip(char*);
 #endif
