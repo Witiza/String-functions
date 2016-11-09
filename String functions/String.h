@@ -5,6 +5,6 @@ int my_strlen(char*);
 int word_count(char*);
 int isupper(char);
 int upper_count(char*);
-int charupper(char);
+char charupper(char);
 char* capitalize(char*);
 #endif

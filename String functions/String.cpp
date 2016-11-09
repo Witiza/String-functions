@@ -14,7 +14,7 @@ int word_count(char* string)
 	while (string[counter] != '\0')
 	{
 		counter++;
-		if (string[counter] = 32)
+		if (string[counter] == 32)
 		{
 			words++;
 		}
@@ -50,11 +50,11 @@ int upper_count(char* string)
 	return num_of_caps;
 }
 
-int charupper(char character)
+char charupper(char character)
 {
-	if (96 < character && character > 123)
+	if (96 < character && character < 123)
 	{
-		character - 32;
+		character -= 32;
 		return character;
 	}
 	else
@@ -65,11 +65,33 @@ int charupper(char character)
 
 char* capitalize(char* string)
 {
-	int counter = 0;
+	string[0] = charupper(string[0]);
+	int counter = 1;
 	while (string[counter] != '\0')
 	{
+		if (string[counter - 1] == 32)
+		{
+		string[counter] = charupper(string[counter]);
+		}
 		counter++;
-		charupper(string[counter]);
 	}
 	return string;
 }
+
+char* my_strflip(char* string)
+{
+if (my_strlen(string) % 2 == 1)
+	{
+	for(int i = 0; i < (my_strlen(string) - 1)/2; i++)
+		{
+		char_flipper(string[i]), string[my_strlen-1-i])
+		}
+if (my_strlen(string) % 2 == 0)
+	{
+	for (int i = 0; i < my_strlen(string) / 2; i++)
+		{
+			char_flipper(string[i]), string[my_strlen - 1 - i])
+		}
+
+
+

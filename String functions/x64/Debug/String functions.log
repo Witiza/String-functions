@@ -1,4 +1,3 @@
 ﻿  String.cpp
-c:\users\lorienpl\desktop\string functions\string functions\string.cpp(57): warning C4552: '-': operator has no effect; expected operator with side-effect
-  String functions.vcxproj -> C:\Users\lorienpl\Desktop\String functions\x64\Debug\String functions.exe
-  String functions.vcxproj -> C:\Users\lorienpl\Desktop\String functions\x64\Debug\String functions.pdb (Partial PDB)
+  String functions.vcxproj -> C:\Users\lorienpl\Documents\GitHub\String-functions\x64\Debug\String functions.exe
+  String functions.vcxproj -> C:\Users\lorienpl\Documents\GitHub\String-functions\x64\Debug\String functions.pdb (Partial PDB)
